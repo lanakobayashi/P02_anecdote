@@ -36,90 +36,7 @@ h3 {
     text-transform: uppercase;
 }
 
-#landing-title {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-#landing-title a {
-    text-decoration: none;
-}
-
-#landing-title a h1 {
-    color: #333;
-}
-
-#landing-title h1 {
-    line-height: 1rem;
-}
-
-#landing-title h3:before {
-    background: #333333;
-    content: "";
-    display: block;
-    height: 1px;
-    width: 100%;
-    position: absolute;
-    top: 20%;
-}
-
-#landing-title h3 span {
-    background: #FFFFFF;
-    z-index: 1;
-    position: relative;
-    padding: 0 1rem;
-}
-
-#landing-title h3 {
-    text-align: center;
-}
-
-.landing-box {
-    /*border rectangle on landing page*/
-    border: 1px solid black;
-    width: 100%;
-    height: 55.5em;
-}
-
-.landing-box h1 {
-    text-align: center;
-    position: relative;
-    top: 46%;
-    text-decoration: line-through;
-}
-
-.landing-box h2 {
-    text-align: center;
-    position: relative;
-    top: 48%;
-    text-transform: uppercase;
-    text-decoration: line-through;
-}
-
-
-.wireframe-btn {
-    min-height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.styleguide-btn {
-    min-height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.citations-btn {
-    min-height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 a.btn {
     color: #333;
@@ -181,18 +98,6 @@ a.btn2:focus {
     transition: 0.5s ease all;
 }
 
-aside {
-    height: 100vh;
-    padding: 2rem;
-    width: 16rem;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    text-align: right;
-    border-left: 1px solid #333;
-}
-
 nav a {
     color: #333333;
     text-decoration: none;
@@ -241,18 +146,6 @@ nav h2 {
     padding-top: 1.5rem;
 }
 
-.foundation,
-.ui,
-.other {
-    padding-top: 2rem;
-}
-
-.foundation a,
-.ui a,
-.other a {
-    text-transform: lowercase;
-}
-
 .content-container {
     padding: 2rem;
     margin: 0;
@@ -260,34 +153,7 @@ nav h2 {
 
 .content {
     float: left;
-    width: 84%;
-}
-
-#value {
-    padding-top: 2.5rem;
-}
-
-#value h2 {
-    font-weight: 900;
-    text-transform: uppercase;
-    padding-bottom: 2rem;
-}
-
-#value p {
-    max-width: 100%;
-    font-weight: 200;
-    font-size: 1rem;
-    padding-bottom: 1rem;
-}
-
-#interactive-elements h2 {
-    font-weight: 900;
-    text-transform: uppercase;
-    padding-top: 2rem;
-}
-
-#interactive-elements h3 {
-    padding-top: 1rem;
+    width: 100%;
 }
 
 .section-header {
@@ -300,22 +166,6 @@ nav h2 {
     border-top: 1px solid #333;
     padding-bottom: 1.5rem;
 }
-
-.code-container {
-    border: solid 1px black;
-    background-color: #ffffff;
-}
-
-
-code {
-    padding-left: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 0.75rem;
-    /*    background-color: #fffde5;*/
-    display: block;
-}
-
 
 .in-text-link {
     text-decoration: none;
@@ -330,68 +180,8 @@ code {
     text-decoration: line-through;
 }
 
-.nav-btn a {
-    color: #333333;
-    text-decoration: none;
-    display: block;
-    transition: color 0.5s ease-in-out;
-    font-weight: 100;
-    text-transform: lowercase;
-}
-
-.nav-btn a:hover {
-    color: #AAAAAA;
-    -webkit-animation: slowskew 0.5s infinite alternate;
-    -moz-animation: slowskew 0.5s infinite alternate;
-    -o-animation: slowskew 0.5s infinite alternate;
-    animation: slowskew 0.5s infinite alternate;
-}
-
-label {
-    font-size: 0.9em;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
 input {
     width: 50%;
-}
-
-#text-styling h2 {
-    font-weight: 900;
-    text-transform: uppercase;
-    padding-top: 2rem;
-}
-
-#text-styling h3 {
-    padding-top: 1rem;
-}
-
-#paragraph-style {
-    max-width: 45rem;
-    font-weight: 200;
-    font-size: 1rem;
-}
-
-#combined-elements h2 {
-    font-weight: 900;
-    text-transform: uppercase;
-    padding-top: 2rem;
-}
-
-#combined-elements h3 {
-    padding-top: 1rem;
-}
-
-#nav-style {
-    width: 16rem;
-    text-align: right;
-}
-
-.code-space {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 100%;
 }
 
 .box {
@@ -507,46 +297,6 @@ input {
 
 .box p {
     text-align: center;
-}
-
-
-#white-box {
-    width: 200px;
-    height: 200px;
-    background: #FFFFFF;
-    border: solid 1px #000;
-}
-
-#lightyellow-box {
-    width: 200px;
-    height: 200px;
-    background: #FFFDE5;
-}
-
-#yellow-box {
-    width: 200px;
-    height: 200px;
-    background: #FFFF66;
-}
-
-#grey-box {
-    width: 200px;
-    height: 200px;
-    background: #AAAAAA;
-}
-
-#grey-box p {
-    color: white;
-}
-
-#black-box {
-    width: 200px;
-    height: 200px;
-    background: #333333;
-}
-
-#black-box p {
-    color: white;
 }
 
 #citations {
