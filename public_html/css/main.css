@@ -20,10 +20,10 @@ h1 {
     letter-spacing: 0.025em;
     font-size: 2rem;
     font-weight: 900;
-    
+
     margin-left: auto;
     margin-right: auto;
-    width: 100%; 
+    width: 100%;
     text-align: center;
 }
 
@@ -392,15 +392,28 @@ input {
 #contact-form {
     padding-top: 2rem;
 }
+
 #contact-us label {
     display: block;
+    padding-bottom: 1rem;
 }
 
 #contact-us input {
-    width: 100%;
     padding: 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid #afafaf;
     border-radius: 2px;
+}
+
+.submit-btn input {
+    width: 30%;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.submit-btn input:hover {
+    background-color: #FFFDE5;
 }
 
 #contact-us input:focus {
@@ -413,8 +426,21 @@ input {
     padding-bottom: 2rem;
 }
 
+.contact-box input {
+    width: 100%;
+    font-weight: 100;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    overflow: auto;
+    cursor: text;
+    font-weight: 100;
+}
+
 .logo-container {
-    padding-top:2rem;
+    padding-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -428,7 +454,7 @@ input {
 /* Links inside the navbar */
 
 .nav-container a {
-/*    float: right;*/
+    /*    float: right;*/
     position: relative;
     text-align: center;
     color: #afafaf;
@@ -470,17 +496,17 @@ ul li {
 .landing-featured {
     margin-left: auto;
     margin-right: auto;
-    width: 30%;    
+    width: 30%;
 }
 
-.landing-journal{
+.landing-journal {
     margin-left: auto;
     margin-right: auto;
-    width: 30%;    
+    width: 30%;
 }
 
 .landing-contact {
     margin-left: auto;
     margin-right: auto;
-    width: 30%;    
+    width: 30%;
 }
