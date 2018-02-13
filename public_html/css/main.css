@@ -419,15 +419,13 @@ input {
 }
 
 .nav-container {
-    width: 33%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 /* Links inside the navbar */
 
 .nav-container a {
-    float: right;
+/*    float: right;*/
     position: relative;
     text-align: center;
     color: #afafaf;
@@ -454,7 +452,7 @@ ul {
 }
 
 ul li {
-    float: left;
     list-style-type: none;
     margin: 0 6px;
+    display: inline-block;
 }
