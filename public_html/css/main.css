@@ -16,24 +16,25 @@ body {
 }
 
 h1 {
+    color: #333;
     letter-spacing: 0.05em;
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 900;
-
 }
 
 h2 {
+    color: #333;
     letter-spacing: 0.05em;
     font-size: 1em;
     font-weight: 300;
-    line-height: 0.05rem;
+    text-transform: uppercase;
 }
 
 h3 {
+    color: #333;
     letter-spacing: 0.05em;
     font-size: 0.8em;
     font-weight: 100;
-    text-transform: uppercase;
 }
 
 
@@ -320,4 +321,14 @@ input {
     .product-box {
         width: 100%;
     }
+}
+
+#about-us {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#about-us h1{
+    text-align: center;
 }
