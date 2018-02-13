@@ -414,7 +414,7 @@ input {
 }
 
 .logo-container {
-    padding: 2em;
+    padding-top:2rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
