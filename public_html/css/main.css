@@ -20,6 +20,11 @@ h1 {
     letter-spacing: 0.025em;
     font-size: 2rem;
     font-weight: 900;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+    text-align: center;
 }
 
 h2 {
@@ -42,8 +47,6 @@ p {
     font-size: 0.85em;
     line-height: 1.5em;
 }
-
-
 
 a.btn {
     color: #333;
@@ -455,4 +458,29 @@ ul li {
     list-style-type: none;
     margin: 0 6px;
     display: inline-block;
+}
+
+.landing-about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 10em 31.2px;
+}
+
+.landing-featured {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;    
+}
+
+.landing-journal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;    
+}
+
+.landing-contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;    
 }
