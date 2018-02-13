@@ -356,24 +356,76 @@ input {
 }
 
 #our-values {
-    padding-bottom: 1rem;                                
+    padding-bottom: 1rem;
+}
+
+#contact-us {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#contact-us h1 {
+    text-align: center;
+}
+
+#contact-us-content {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+#hours {
+    padding-top: 1rem;
+}
+
+#phone {
+    padding-top: 1rem;
+}
+
+#email {
+    padding-top: 1rem;
+}
+
+#contact-form {
+    padding-top: 2rem;
+}
+#contact-us label {
+    display: block;
+}
+
+#contact-us input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+#contact-us input:focus {
+    outline: none;
+    border-color: #333;
+    transition: all 0.3s ease-in;
+}
+
+.contact-box {
+    padding-bottom: 2rem;
 }
 
 .logo-container {
-    padding:2em;
+    padding: 2em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border-bottom:1px black;
+    border-bottom: 1px black;
 }
 
-.nav-container{
-    width:33%;
+.nav-container {
+    width: 33%;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* Links inside the navbar */
+
 .nav-container a {
     float: right;
     position: relative;
@@ -382,26 +434,27 @@ input {
     padding: 14px 31.2px;
     text-transform: uppercase;
     font-size: 0.7em;
-    letter-spacing:0.2em;
-    text-decoration: none;   
+    letter-spacing: 0.2em;
+    text-decoration: none;
     transition: all 0.3s ease-in;
 }
 
 /* Change background on mouse-over */
+
 .nav-container a:hover {
     background-color: #FFFDE5;
     color: black;
-    border-bottom:1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 ul {
-  list-style-type: none;
-  margin:0;
-  padding:10px 0;  
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
 }
 
 ul li {
-  float: left;
-  list-style-type: none;
-  margin: 0 6px;
+    float: left;
+    list-style-type: none;
+    margin: 0 6px;
 }
