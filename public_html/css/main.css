@@ -206,8 +206,9 @@ input {
 .product-box {
     position: relative;
     display: block;
-    width: 500px;
-    height: 500px;
+    width: 277px;
+    height: 277px;
+    margin-right:2rem;
 }
 
 .product-box:hover {
@@ -229,7 +230,7 @@ input {
     position: absolute;
     top: 8px;
     right: 16px;
-    text-align: right;
+    text-align: center;
     padding-right: 2rem;
 }
 
@@ -237,7 +238,7 @@ input {
     position: absolute;
     top: 8px;
     right: 16px;
-    text-align: right;
+    text-align: center;
     padding-right: 2rem;
 }
 
@@ -252,11 +253,11 @@ input {
     font-weight: 200;
     position: absolute;
     right: 1rem;
-    top: 24rem;
+    top: 5rem;
 }
 
 .product-image img {
-    width: 500px;
+    width: 277px;
 }
 
 .product-image:hover {
@@ -293,7 +294,6 @@ input {
 .grid-col-4of12 {
     width: 33.3333333%;
     background: #FFFDE5;
-    height: 200px;
     border: 1px solid black;
 }
 
@@ -472,7 +472,7 @@ ul li {
 .landing-featured {
     margin-left: auto;
     margin-right: auto;
-    width: 30%;    
+    width: 50%;
 }
 
 .landing-journal{
