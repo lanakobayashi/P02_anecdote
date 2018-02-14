@@ -20,10 +20,10 @@ h1 {
     letter-spacing: 0.025em;
     font-size: 2rem;
     font-weight: 900;
-    
+
     margin-left: auto;
     margin-right: auto;
-    width: 100%; 
+    width: 100%;
     text-align: center;
 }
 
@@ -392,18 +392,41 @@ input {
 #contact-form {
     padding-top: 2rem;
 }
-#contact-us label {
+
+label {
     display: block;
+    padding-bottom: 1rem;
 }
 
-#contact-us input {
-    width: 100%;
-    padding: 1rem;
-    border: 1px solid #ddd;
+input {
+    padding: 0.75rem;
+    border: 1px solid #afafaf;
     border-radius: 2px;
 }
 
-#contact-us input:focus {
+.submit-btn {
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 2rem;
+}
+
+.submit-btn a {
+    text-decoration: none;
+    color: #333;
+    background-color: #ffff66;
+    padding: 1rem 5rem;
+}
+
+.submit-btn a:hover {
+    background-color: #333;
+    color: #FFF;
+    transition: all 0.5s ease-in-out;
+}
+
+input:focus {
     outline: none;
     border-color: #333;
     transition: all 0.3s ease-in;
@@ -413,8 +436,53 @@ input {
     padding-bottom: 2rem;
 }
 
+.contact-box input {
+    width: 100%;
+    font-weight: 100;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    overflow: auto;
+    cursor: text;
+    font-weight: 100;
+}
+
+#payment {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#payment h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#payment-content {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+select {
+    width: 100%;
+    height: 3rem;
+    background: white;
+    border: 1px solid #afafaf;
+    border-radius: 2px;
+    font-weight: 100;
+    
+}
+
+select:focus {
+   outline: none;
+    border-color: #333;
+    transition: all 0.3s ease-in;
+}
+
 .logo-container {
-    padding: 2em;
+    padding-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -422,15 +490,13 @@ input {
 }
 
 .nav-container {
-    width: 33%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 /* Links inside the navbar */
 
 .nav-container a {
-    float: right;
+    /*    float: right;*/
     position: relative;
     text-align: center;
     color: #afafaf;
@@ -457,9 +523,9 @@ ul {
 }
 
 ul li {
-    float: left;
     list-style-type: none;
     margin: 0 6px;
+    display: inline-block;
 }
 
 .landing-about {
@@ -472,17 +538,17 @@ ul li {
 .landing-featured {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;    
 }
 
-.landing-journal{
+.landing-journal {
     margin-left: auto;
     margin-right: auto;
-    width: 30%;    
+    width: 30%;
 }
 
 .landing-contact {
     margin-left: auto;
     margin-right: auto;
-    width: 30%;    
+    width: 30%;
 }
