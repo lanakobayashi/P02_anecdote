@@ -115,38 +115,6 @@ nav a {
     font-weight: 100;
 }
 
-.nav-container a:hover {
-    color: #AAAAAA;
-    -webkit-animation: slowskew 0.5s infinite alternate;
-    -moz-animation: slowskew 0.5s infinite alternate;
-    -o-animation: slowskew 0.5s infinite alternate;
-    animation: slowskew 0.5s infinite alternate;
-}
-
-@-webkit-keyframes slowskew {
-    to {
-        -webkit-transform: skewX(-10deg);
-    }
-}
-
-@-moz-keyframes slowskew {
-    to {
-        -moz-transform: skewX(-10deg);
-    }
-}
-
-@-o-keyframes slowskew {
-    to {
-        -o-transform: skewX(-10deg);
-    }
-}
-
-@keyframes slowskew {
-    to {
-        transform: skewX(-10deg);
-    }
-}
-
 nav a:focus {
     color: #333333;
 }
@@ -465,11 +433,11 @@ select {
     border: 1px solid #afafaf;
     border-radius: 2px;
     font-weight: 100;
-    
+
 }
 
 select:focus {
-   outline: none;
+    outline: none;
     border-color: #333;
     transition: all 0.3s ease-in;
 }
@@ -499,12 +467,12 @@ select:focus {
     letter-spacing: 0.2em;
     text-decoration: none;
     transition: all 0.3s ease-in;
+    border-bottom: 1px solid #FFF;
 }
 
 /* Change background on mouse-over */
 
 .nav-container a:hover {
-    background-color: #FFFDE5;
     color: black;
     border-bottom: 1px solid #000;
 }
