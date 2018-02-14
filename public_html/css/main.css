@@ -443,11 +443,11 @@ select {
     border: 1px solid #afafaf;
     border-radius: 2px;
     font-weight: 100;
-    
+
 }
 
 select:focus {
-   outline: none;
+    outline: none;
     border-color: #333;
     transition: all 0.3s ease-in;
 }
