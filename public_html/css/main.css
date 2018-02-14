@@ -159,6 +159,7 @@ nav h2 {
 
 input {
     width: 50%;
+    font-size: 0.85rem;
 }
 
 .box {
@@ -449,6 +450,33 @@ select {
 select:focus {
     outline: none;
     border-color: #333;
+    transition: all 0.3s ease-in;
+}
+
+.contact-box {
+    padding-bottom: 2rem;
+}
+
+.contact-box input {
+    width: 100%;
+    font-weight: 100;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    overflow: auto;
+    cursor: text;
+    font-weight: 100;
+    padding: 1rem;
+    font-size: 0.85rem;
+    border: 1px solid #afafaf;
+    border-color: 
+}
+
+textarea:focus {
+    outline: none;
+    border-color:#333;
     transition: all 0.3s ease-in;
 }
 
