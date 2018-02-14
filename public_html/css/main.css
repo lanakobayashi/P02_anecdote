@@ -339,87 +339,91 @@ input {
     text-align: center;
 }
 
-#contact-us-content {
-    padding-top: 1.5rem;
-    padding-bottom: 3rem;
-}
-
-#hours {
-    padding-top: 1rem;
-}
-
-#phone {
-    padding-top: 1rem;
-}
-
-#email {
-    padding-top: 1rem;
-}
-
-#contact-form {
-    padding-top: 2rem;
-}
-
-label {
-    display: block;
-    padding-bottom: 1rem;
-}
-
-input {
-    padding: 0.75rem;
-    border: 1px solid #afafaf;
-    border-radius: 2px;
-}
-
-.submit-btn {
-    font-size: 0.75em;
-    font-weight: 600;
-    text-transform: uppercase;
+#contact-us-content { 
+    padding-top: 1.5rem; 
+    padding-bottom: 3rem; 
+} 
+ 
+#hours { 
+    padding-top: 1rem; 
+} 
+ 
+#phone { 
+    padding-top: 1rem; 
+} 
+ 
+#email { 
+    padding-top: 1rem; 
+} 
+ 
+#contact-form { 
+    padding-top: 2rem; 
+} 
+ 
+label { 
+    display: block; 
+    padding-bottom: 1rem; 
+} 
+ 
+input { 
+    padding: 0.75rem; 
+    border: 1px solid #afafaf; 
+    border-radius: 2px; 
+} 
+ 
+.submit-btn { 
+    font-size: 0.75em; 
+    font-weight: 600; 
+    text-transform: uppercase; 
     letter-spacing: 0.05em;
+    text-align: center; 
+    padding: 2rem; 
+} 
+ 
+.submit-btn a { 
+    text-decoration: none; 
+    color: #333; 
+    background-color: #ffff66; 
+    padding: 1rem 5rem; 
+} 
+ 
+.submit-btn a:hover { 
+    background-color: #333; 
+    color: #FFF; 
+    transition: all 0.5s ease-in-out; 
+} 
+ 
+input:focus { 
+    outline: none; 
+    border-color: #333; 
+    transition: all 0.3s ease-in; 
+} 
+ 
+.contact-box { 
+    padding-bottom: 2rem; 
+} 
+ 
+.contact-box input { 
+    width: 100%; 
+    font-weight: 100; 
+} 
+ 
+textarea { 
+    width: 100%; 
+    resize: vertical; 
+    overflow: auto; 
+    cursor: text; 
+    font-weight: 100;  
+} 
+
+.nav-container {
     text-align: center;
-    padding: 2rem;
 }
 
-.submit-btn a {
-    text-decoration: none;
-    color: #333;
-    background-color: #ffff66;
-    padding: 1rem 5rem;
-}
-
-.submit-btn a:hover {
-    background-color: #333;
-    color: #FFF;
-    transition: all 0.5s ease-in-out;
-}
-
-input:focus {
-    outline: none;
-    border-color: #333;
-    transition: all 0.3s ease-in;
-}
-
-.contact-box {
-    padding-bottom: 2rem;
-}
-
-.contact-box input {
-    width: 100%;
-    font-weight: 100;
-}
-
-textarea {
-    width: 100%;
-    resize: vertical;
-    overflow: auto;
-    cursor: text;
-    font-weight: 100;
-}
-
-#payment {
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+#payment { 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 30%; 
 }
 
 #payment h2 {
@@ -493,29 +497,4 @@ ul li {
     list-style-type: none;
     margin: 0 6px;
     display: inline-block;
-}
-
-.landing-about {
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    padding: 10em 31.2px;
-}
-
-.landing-featured {
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;    
-}
-
-.landing-journal {
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-}
-
-.landing-contact {
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
 }
