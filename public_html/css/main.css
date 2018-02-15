@@ -566,6 +566,12 @@ ul li {
     width: 100%;
 }
 
+.journal-entry figcaption {
+    font-weight: 100;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
 .journal-entry h3 {
     text-decoration: none;
     text-align: center;
@@ -591,4 +597,13 @@ ul li {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+.comment-section {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comment-section h2 {
+    text-align: left;
 }
