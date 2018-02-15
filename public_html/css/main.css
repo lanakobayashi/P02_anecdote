@@ -129,7 +129,7 @@ nav h2 {
 
 .content-container {
     padding: 2rem;
-    margin: 0;
+    min-height: 100%;
 }
 
 .content {
@@ -612,7 +612,7 @@ p {
 }
 
 #journal h1 {
-    padding-bottom:2rem;
+    padding-bottom: 2rem;
 }
 
 .comment-section {
@@ -629,6 +629,7 @@ p {
 #catalog h1 {
     padding-bottom: 2rem;
 }
+
 .product-page {
     width: 70%;
     margin-left: auto;
@@ -698,4 +699,28 @@ p {
 
 .reviews textarea {
     border: 0;
+}
+
+.footer-spacing {
+    display: block;
+    height: 8rem;
+}
+
+footer {
+    display: block;
+    padding-top: 2rem;
+    border-top: 1px #afafaf solid;
+    text-align: center;
+}
+
+.citations a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.citations a:hover {
+    color: #afafaf;
+    text-decoration: line-through;
 }
