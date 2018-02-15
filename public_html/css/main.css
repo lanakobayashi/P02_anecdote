@@ -131,6 +131,7 @@ nav h2 {
 .content {
     float: left;
     width: 100%;
+    padding-bottom:3rem;
 }
 
 .section-header {
@@ -416,9 +417,14 @@ textarea {
     cursor: text; 
     font-weight: 100;  
 } 
+#contact-us-content {
+    padding-top: 1.5rem;
+}
 
 .nav-container {
     text-align: center;
+.contact-top-padding {
+    padding-top:1rem;
 }
 
 #payment { 
@@ -435,6 +441,8 @@ textarea {
 #payment-content {
     padding-top: 1.5rem;
     padding-bottom: 3rem;
+#contact-form {
+    padding-top: 2rem;
 }
 
 select {
