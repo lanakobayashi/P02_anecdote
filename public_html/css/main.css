@@ -551,3 +551,25 @@ ul li {
 #feedback {
     padding-top: 1.5rem;
 }
+
+.journal-entry {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.journal-entry figure {
+    margin: 0;
+    padding-bottom: 2rem;
+}
+.journal-entry img {
+    width: 100%;
+}
+
+.journal-entry h3 {
+    text-decoration: none;
+    text-align: center;
+}
+
+.journal-entry p {
+    padding-bottom: 1rem;
+}
