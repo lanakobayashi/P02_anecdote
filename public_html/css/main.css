@@ -347,8 +347,10 @@ textarea {
 .nav-container {
     text-align: center;
 }
-.contact-top-padding {
+
+.contact-information {
     padding-top:1rem;
+    text-align: center;
 }
 
 #payment { 
@@ -566,6 +568,12 @@ ul li {
     width: 100%;
 }
 
+.journal-entry figcaption {
+    font-weight: 100;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
 .journal-entry h3 {
     text-decoration: none;
     text-align: center;
@@ -601,4 +609,13 @@ ul li {
 
 #journal h1 {
     padding-bottom:2rem;
+}
+.comment-section {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comment-section h2 {
+    text-align: left;
 }
