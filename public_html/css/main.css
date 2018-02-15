@@ -132,6 +132,7 @@ nav h2 {
 .content {
     float: left;
     width: 100%;
+    padding-bottom:3rem;
 }
 
 .section-header {
@@ -343,19 +344,10 @@ input {
 
 #contact-us-content {
     padding-top: 1.5rem;
-    padding-bottom: 3rem;
 }
 
-#hours {
-    padding-top: 1rem;
-}
-
-#phone {
-    padding-top: 1rem;
-}
-
-#email {
-    padding-top: 1rem;
+.contact-top-padding {
+    padding-top:1rem;
 }
 
 #contact-form {
