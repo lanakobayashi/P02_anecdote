@@ -592,3 +592,13 @@ ul li {
     margin-right: auto;
     width: 60%;
 }
+
+#journal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#journal h1 {
+    padding-bottom:2rem;
+}
