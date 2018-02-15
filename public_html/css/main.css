@@ -212,6 +212,10 @@ input {
     padding-top: 1.5rem;
 }
 
+.product-image {
+    margin: 0;
+}
+
 .product-image img {
     width: 100%;
     height: auto;
@@ -219,10 +223,6 @@ input {
 
 #who {
     padding-bottom: 1rem;
-}
-
-figure {
-    margin: 0;
 }
 
 #what {
@@ -536,7 +536,7 @@ ul li {
 }
 
 #confirmation-content figcaption {
-    font-weight: 100
+    font-weight: 100;
 }
 
 .information-cluster h3, p {
