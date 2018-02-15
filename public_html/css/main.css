@@ -573,3 +573,15 @@ ul li {
 .journal-entry p {
     padding-bottom: 1rem;
 }
+
+#feedback a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+#feedback a:hover {
+    color: #afafaf;
+    text-decoration: line-through;
+}
