@@ -20,6 +20,7 @@ h1 {
     letter-spacing: 0.025em;
     font-size: 2rem;
     font-weight: 900;
+
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -32,6 +33,8 @@ h2 {
     font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
+    text-align: center;
+    text-decoration: line-through;
 }
 
 h3 {
@@ -164,9 +167,7 @@ input {
     font-size: 0.85rem;
 }
 
-.box {
-    display: inline-block;
-}
+/*----------PRODUCT LISTING----------*/
 
 
 .grid-container {
@@ -209,13 +210,22 @@ input {
 
 #about-us-nav {
     padding-top: 1.5rem;
+.product-image img {
+    width: 100%;
+    height: auto;
 }
 
 #who {
     padding-bottom: 1rem;
+figure {
+    margin: 0;
 }
 
 #what {
+/*----------GRID STRUCTURE----------*/
+
+.grid-container {
+    display: flex;
     padding-bottom: 1rem;
 }
 
@@ -227,10 +237,14 @@ input {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+.grid-col-12of12 {
+    width: 100%;
 }
 
 #contact-us h1 {
     text-align: center;
+.grid-col-6of12 {
+    width: 50%;
 }
 
 #contact-us-content { 
@@ -311,6 +325,10 @@ textarea {
 } 
 #contact-us-content {
     padding-top: 1.5rem;
+.grid-col-4of12 {
+    width: 33.3333333%;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .nav-container {
@@ -337,6 +355,16 @@ textarea {
 }
 #contact-form {
     padding-top: 2rem;
+.grid-col-3of12 {
+    width: 25%;
+}
+
+/*----------ABOUT PAGE----------*/
+
+#about-us {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 select {
@@ -380,10 +408,15 @@ textarea:focus {
     outline: none;
     border-color:#333;
     transition: all 0.3s ease-in;
+#our-values {
+    padding-bottom: 1rem;
 }
+
+/*----------NAVIGATION BAR----------*/
 
 .logo-container {
     padding-top: 2rem;
+    padding: 2em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -412,6 +445,8 @@ textarea:focus {
 
 /* Change background on mouse-over */
 
+/* Underline on mouse-over */
+
 .nav-container a:hover {
     color: black;
     border-bottom: 1px solid #000;
@@ -427,26 +462,54 @@ ul li {
     list-style-type: none;
     margin: 0 6px;
     display: inline-block;
+    margin 0 6px;
+    list-style-type: none;
+    display: inline-block;
 }
 
 #confirmation-content {
     width: 60%;
     margin-left:auto;
     margin-right:auto;
+/*----------LANDING PAGE----------*/
+
+.landing-about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 3rem;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #confirmation-content h2{
     text-align: center;
     text-decoration: line-through
+.landing-featured {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 7rem;
 }
 
 #confirmation-content h3{
    text-decoration: none;
+.landing-journal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 7rem;
 }
 
 #confirmation-content img {
     width:100%;
     height: auto;
+.landing-contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+    padding-top: 7rem;
 }
 
 #confirmation-content figcaption {
@@ -461,3 +524,7 @@ ul li {
     padding-bottom: 1rem;
 }
 
+
+#feedback {
+    padding-top: 1.5rem;
+}
