@@ -135,6 +135,7 @@ nav h2 {
 .content {
     float: left;
     width: 100%;
+    padding-bottom: 3rem;
 }
 
 .section-header {
@@ -318,4 +319,16 @@ ul li {
 
 #feedback {
     padding-top: 1.5rem;
+}
+
+#feedback a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+#feedback a:hover {
+    color: #afafaf;
+    text-decoration: line-through;
 }
