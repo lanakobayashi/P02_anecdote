@@ -724,3 +724,18 @@ footer {
     color: #afafaf;
     text-decoration: line-through;
 }
+
+#citations-content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#citations-content p {
+    line-height: 3rem;
+}
+
+#citations-content h2 {
+    padding: 2rem;
+}
