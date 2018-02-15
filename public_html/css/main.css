@@ -558,3 +558,7 @@ ul li {
     margin-right: auto;
     width: 60%;
 }
+
+#catalog h1 {
+    padding-bottom: 2rem;
+}
