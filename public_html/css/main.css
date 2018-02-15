@@ -230,11 +230,6 @@ input {
 }
 /*----------GRID STRUCTURE----------*/
 
-.grid-container {
-    display: flex;
-    padding-bottom: 1rem;
-}
-
 #our-values {
     padding-bottom: 1rem;
 }
@@ -547,7 +542,6 @@ ul li {
 .information-cluster {
     padding-bottom: 1rem;
 }
-
 
 #feedback {
     padding-top: 1.5rem;
