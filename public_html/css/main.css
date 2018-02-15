@@ -315,7 +315,7 @@ input {
     text-align: center;
 }
 
-#about-us-content {
+#about-us-nav {
     padding-top: 1.5rem;
 }
 
@@ -423,6 +423,7 @@ textarea {
 
 .nav-container {
     text-align: center;
+}
 .contact-top-padding {
     padding-top:1rem;
 }
@@ -441,6 +442,7 @@ textarea {
 #payment-content {
     padding-top: 1.5rem;
     padding-bottom: 3rem;
+}
 #contact-form {
     padding-top: 2rem;
 }
