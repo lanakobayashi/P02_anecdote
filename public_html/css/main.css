@@ -346,8 +346,9 @@ input {
     padding-top: 1.5rem;
 }
 
-.contact-top-padding {
+.contact-information {
     padding-top:1rem;
+    text-align: center;
 }
 
 #contact-form {
