@@ -460,6 +460,84 @@ ul li {
     text-decoration: line-through
 }
 
+ul.product-list {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+ul.product-list li {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+ul.product-list li img {
+    width: 100%;
+    display: block;
+}
+
+ul.product-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(2) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(2) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
+    position: relative;
+    top: 35%;
+}
+
+span.text-content h2,
+span.text-content p {
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFDE5;
+    text-decoration: none;
+}
+
+span.text-content {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+
+ul.product-list li:hover span.text-content {
+    opacity: 1;
+}
+
 .landing-featured {
     margin-left: auto;
     margin-right: auto;
