@@ -166,6 +166,31 @@ input {
     font-size: 0.85rem;
 }
 
+/*----------PRODUCT LISTING----------*/
+
+.grid-container {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.grid-col-12of12 {
+    width: 100%;
+}
+
+.grid-col-6of12 {
+    width: 50%;
+}
+
+.grid-col-4of12 {
+    width: 33.3333333%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.grid-col-3of12 {
+    width: 25%;
+}
+
 #about-us {
     margin-left: auto;
     margin-right: auto;
@@ -202,6 +227,8 @@ input {
     padding-bottom: 1rem;
 }
 
+/*----------GRID STRUCTURE----------*/
+
 #our-values {
     padding-bottom: 1rem;
 }
@@ -218,6 +245,42 @@ input {
     text-align: center;
 }
 
+#contact-us-content {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+#hours {
+    padding-top: 1rem;
+}
+
+#phone {
+    padding-top: 1rem;
+}
+
+#email {
+    padding-top: 1rem;
+}
+
+#contact-form {
+    padding-top: 2rem;
+}
+
+label {
+    display: block;
+    padding-bottom: 1rem;
+}
+
+input {
+    padding: 0.75rem;
+    border: 1px solid #afafaf;
+    border-radius: 2px;
+}
+
+.submit-btn {
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
 #contact-us-content {
     padding-top: 1.5rem;
     padding-bottom: 3rem;
@@ -306,6 +369,10 @@ textarea {
 .contact-information {
     padding-top: 1rem;
     text-align: center;
+}
+
+.contact-top-padding {
+    padding-top: 1rem;
 }
 
 #payment {
@@ -569,6 +636,86 @@ ul.product-list li:hover span.text-content {
     padding-top: 7rem;
 }
 
+ul.product-list {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+ul.product-list li {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+ul.product-list li img {
+    width: 100%;
+    display: block;
+}
+
+ul.product-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(2) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(2) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
+    position: relative;
+    top: 35%;
+}
+
+span.text-content h2,
+span.text-content p {
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFDE5;
+    text-decoration: none;
+    width: 80%;
+    left: 10%;
+}
+
+span.text-content {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+
+ul.product-list li:hover span.text-content {
+    opacity: 1;
+}
+
 #confirmation-content figcaption {
     font-weight: 100;
 }
@@ -768,3 +915,4 @@ footer {
 #citations-content h2 {
     padding: 2rem;
 }
+
