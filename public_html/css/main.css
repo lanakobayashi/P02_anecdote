@@ -281,6 +281,9 @@ input {
     font-size: 0.75em;
     font-weight: 600;
     text-transform: uppercase;
+
+}
+
 #contact-us-content {
     padding-top: 1.5rem;
     padding-bottom: 3rem;
@@ -915,4 +918,3 @@ footer {
 #citations-content h2 {
     padding: 2rem;
 }
-
