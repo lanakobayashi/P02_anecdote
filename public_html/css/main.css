@@ -293,6 +293,7 @@ ul li {
     padding-top: 3rem;
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: 5rem;
 }
 
 ul.product-list {
@@ -306,7 +307,7 @@ ul.product-list {
 ul.product-list li {
     display: inline-block;
     position: relative;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 ul.product-list li img {
