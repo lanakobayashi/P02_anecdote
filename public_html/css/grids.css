@@ -72,6 +72,23 @@
         margin: 0;
     }
 
+    /*------------------LANDING---------------------*/
+    .landing-about {
+        width: 60%;
+    }
+
+    .landing-journal {
+        width: 60%;
+    }
+
+    .landing-featured {
+        width: 60%;
+    }
+
+    .landing-contact {
+        width: 60%;
+    }
+    
     #contact-us {
         width: 40%;
     }
@@ -122,6 +139,23 @@
 
     #confirmation-content figure {
         margin: 0;
+    }
+
+    /*------------------LANDING---------------------*/
+    .landing-about {
+        width: 70%;
+    }
+
+    .landing-journal {
+        width: 70%;
+    }
+
+    .landing-featured {
+        width: 70%;
+    }
+
+    .landing-contact {
+        width: 70%;
     }
 
     #contact-us {
