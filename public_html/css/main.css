@@ -70,6 +70,7 @@ input {
     float: left;
     width: 100%;
     padding-bottom: 3rem;
+    margin-top: 10rem;
 }
 
 .section-header {
@@ -161,6 +162,14 @@ a.btn2:focus {
 
 /*----------NAVIGATION BAR----------*/
 
+nav {
+    position: fixed;
+    background: white;
+    padding-bottom: 2rem;
+    width: 100%;
+    z-index: 100;
+}
+
 nav a {
     color: #333333;
     text-decoration: none;
@@ -208,6 +217,10 @@ nav h2 {
 .nav-container a:hover {
     color: black;
     border-bottom: 1px solid #000;
+}
+
+a.icon {
+    display: none;
 }
 
 /*List nav links in a row*/
