@@ -246,21 +246,16 @@
 }
 
 @media (max-width:37.5em) {
-    a.icon {
+    .hamburger {
         display: block;
-        border-bottom: none;
         float: right;
         padding: 0;
         margin: 0;
-        margin-right: 2rem;
-        transform: translate(0, -350%);
+        margin-right:2rem;
+        transform: translate(0, -200%);
     }
 
-    a.icon:hover {
-        border-bottom: none;
-    }
-
-    .nav-container ul li  {
+    .nav-container ul li {
         display: none;
     }
 
@@ -270,7 +265,7 @@
         transition: all 0.5s ease-in-out;
     }
 
-    .nav-container.responsive ul li  {
+    .nav-container.responsive ul li {
         display: block;
         float: none;
         margin-top: 2rem;
@@ -369,3 +364,4 @@
 
     }
 }
+
