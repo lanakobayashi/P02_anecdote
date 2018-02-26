@@ -7,7 +7,7 @@
 
 /*----------BASIC STYLING----------*/
 
-html, body {
+html, body {a
     height: 100%;
     width: 100%;
 }
@@ -217,8 +217,27 @@ nav h2 {
     color: black;
     border-bottom: 1px solid #000;
 }
+.ham-bar1, .ham-bar2, .ham-bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
 
-a.icon {
+.nav-container.responsive .ham-bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 50px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.nav-container.responsive .ham-bar2 {opacity: 0;}
+
+.nav-container.responsive .ham-bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.hamburger {
     display: none;
 }
 
@@ -756,3 +775,4 @@ footer {
 #citations-content h2 {
     padding: 2rem;
 }
+
