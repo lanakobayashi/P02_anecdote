@@ -16,10 +16,11 @@
     <nav>
         <div class="logo-container">
             <a href="landing.html">
-                <img src="img/logo.jpg" width=90 alt="Logo for anec+dote">
-            </a>
+              <img src="img/logo.jpg" width=90 alt="Logo for anec+dote">
+          </a>
         </div>
-        <div class="nav-container">
+        <div class="nav-container" id="myNav">
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
             <ul>
                 <li><a href="catalog.html">Catalog</a></li>
                 <li><a href="journal.html">Journal</a></li>
@@ -42,9 +43,9 @@
                 <p>It ties in with Monotype’s newest typeface revival project: ‘The Wolpe Collection’ – a modernisation of five eye-catching, energetic typefaces from type designer Berthold Wolpe.</p>
 
                 <p>The exhibition includes both Wolpe-related archive materials such as sketches, notes and book jacket designs and the new Wolpe Collection from Monotype.</p>
-               
+
                 <p>The new type collection includes the new Albertus Nova, Wolpe Fanfare, Wolpe Pegasus, Wolpe Tempest and Sachsenwald designs which were developed under the direction of Toshi Omagari of The Monotype Studio. The Wolpe Collection picks up where Wolpe left off more than a half century ago, untethering the typefaces from the restrictions of its era, adding back serifs, curves and angles that have a more natural and fitting place in today’s modern design landscape.</p>
-                
+
                 <p>Monotype’s newest typefaces were modelled around Wolpe’s original designs, embracing their collective quirks and deliberate inconsistencies. The Wolpe Collection creates a new spin on each typeface, all of which are close to his original visions. They include angles and adornments that were removed, changed or condensed to accommodate the limitations of print typesetting of the 1930s and 1940s – but are now relevant for the digital era. The restored and newly digitised typefaces include lost letterforms as well as new weights, alternate characters and expanded language support.</p>
             </div>
             <div class="comment-section">
@@ -67,5 +68,16 @@
             </div>
         </div>
     </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNav");
+            if (x.className === "nav-container") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-container";
+            }
+        }
+    </script>
 </body>
+
 </html>

@@ -16,10 +16,11 @@
     <nav>
         <div class="logo-container">
             <a href="landing.html">
-                <img src="img/logo.jpg" width=90 alt="Logo for anec+dote">
-            </a>
+              <img src="img/logo.jpg" width=90 alt="Logo for anec+dote">
+          </a>
         </div>
-        <div class="nav-container">
+        <div class="nav-container" id="myNav">
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
             <ul>
                 <li><a href="catalog.html">Catalog</a></li>
                 <li><a href="journal.html">Journal</a></li>
@@ -100,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="footer-spacing"></div>
 
             <footer>
@@ -112,9 +113,20 @@
                     </p>
                 </div>
             </footer>
-            
+
         </div>
     </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNav");
+            if (x.className === "nav-container") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-container";
+            }
+        }
+    </script>
+
 </body>
 
 </html>
