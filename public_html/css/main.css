@@ -165,7 +165,6 @@ a.btn2:focus {
 nav {
     position: fixed;
     background: white;
-    padding-bottom: 2rem;
     width: 100%;
     z-index: 100;
 }
