@@ -7,8 +7,9 @@
 
 /*----------BASIC STYLING----------*/
 
-html, body {a
-    height: 100%;
+html,
+body {
+    a height: 100%;
     width: 100%;
 }
 
@@ -19,6 +20,7 @@ body {
 }
 
 /*headers*/
+
 h1 {
     color: #333;
     letter-spacing: 0.025em;
@@ -61,6 +63,7 @@ input {
 }
 
 /*main container*/
+
 .content-container {
     padding: 2rem;
     min-height: 100%;
@@ -147,6 +150,7 @@ a.btn2:focus {
 }
 
 /*in-text links*/
+
 .in-text-link {
     text-decoration: none;
     color: #666666;
@@ -167,6 +171,7 @@ nav {
     background: white;
     width: 100%;
     z-index: 100;
+    padding-bottom: 0.25rem;
 }
 
 nav a {
@@ -198,6 +203,7 @@ nav h2 {
 }
 
 /* Links inside the navbar */
+
 .nav-container a {
     /*    float: right;*/
     position: relative;
@@ -213,11 +219,15 @@ nav h2 {
 }
 
 /* Underline on mouse-over */
+
 .nav-container a:hover {
     color: black;
     border-bottom: 1px solid #000;
 }
-.ham-bar1, .ham-bar2, .ham-bar3 {
+
+.ham-bar1,
+.ham-bar2,
+.ham-bar3 {
     width: 35px;
     height: 5px;
     background-color: #333;
@@ -230,7 +240,9 @@ nav h2 {
     transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.nav-container.responsive .ham-bar2 {opacity: 0;}
+.nav-container.responsive .ham-bar2 {
+    opacity: 0;
+}
 
 .nav-container.responsive .ham-bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
@@ -242,6 +254,7 @@ nav h2 {
 }
 
 /*List nav links in a row*/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -279,7 +292,9 @@ ul li {
     padding-top: 1.5rem;
 }
 
-#who, #what, #our-values {
+#who,
+#what,
+#our-values {
     padding-bottom: 1rem;
 }
 
@@ -330,6 +345,7 @@ input {
 }
 
 /*when input area is selected*/
+
 input:focus {
     outline: none;
     border-color: #333;
@@ -420,6 +436,7 @@ textarea:focus {
 }
 
 /*'Send feedback' in-text link*/
+
 #feedback {
     padding-top: 1.5rem;
 }
@@ -585,6 +602,7 @@ ul.product-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > 
 }
 
 /* Text in the product image */
+
 span.text-content h2,
 span.text-content p {
     text-align: center;
@@ -633,6 +651,7 @@ ul.product-list li:hover span.text-content {
 }
 
 /*selecting payment method*/
+
 select {
     width: 100%;
     height: 3rem;
@@ -643,6 +662,7 @@ select {
 }
 
 /*when input box for payment method is selected*/
+
 select:focus {
     outline: none;
     border-color: #333;
@@ -683,7 +703,8 @@ select:focus {
     padding-bottom: 1rem;
 }
 
-.information-cluster h3, p {
+.information-cluster h3,
+p {
     margin: 0;
 }
 
@@ -775,4 +796,3 @@ footer {
 #citations-content h2 {
     padding: 2rem;
 }
-
