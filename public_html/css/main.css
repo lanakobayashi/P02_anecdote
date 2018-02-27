@@ -99,23 +99,6 @@ input {
 /*----------BUTTONS/LINKS----------*/
 
 /*landing button*/
-button {
-    text-decoration: none;
-    color: #333;
-    background-color: rgba(255,255,255,0);
-    border: 1px solid black;
-    padding: 1rem 3rem;
-    font-size: 0.75em;
-    letter-spacing: 0.05em;
-    text-align: center;
-}
-
-button:hover {
-    background-color: #333;
-    color: #FFF;
-    transition: all 0.5s ease-in-out;
-}
-
 a.btn {
     color: #333;
     text-decoration: none;
@@ -460,6 +443,23 @@ textarea:focus {
     top: 51.3%;
     text-align: center;
     padding: 3rem;
+}
+
+.more-btn a, .view-btn a {
+    text-decoration: none;
+    color: #333;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid black;
+    padding: 1rem 3rem;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.more-btn a:hover, .view-btn a:hover {
+    background-color: #333;
+    color: #FFF;
+    transition: all 0.5s ease-in-out;
 }
 
 /*media query for landing image*/
