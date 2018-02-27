@@ -268,7 +268,7 @@
     .nav-container.responsive ul li {
         display: block;
         float: none;
-        margin-top: 2rem;
+        margin-top: 3rem;
         transition: all 0.5s ease-in-out;
     }
 
