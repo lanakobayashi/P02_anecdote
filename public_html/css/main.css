@@ -97,6 +97,24 @@ input {
 
 /*----------BUTTONS/LINKS----------*/
 
+/*landing button*/
+button {
+    text-decoration: none;
+    color: #333;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid black;
+    padding: 1rem 3rem;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #333;
+    color: #FFF;
+    transition: all 0.5s ease-in-out;
+}
+
 a.btn {
     color: #333;
     text-decoration: none;
@@ -410,27 +428,8 @@ textarea:focus {
     width: 100%;
     left: 0;
     top: 51.3%;
-    font-size: 0.75em;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
     text-align: center;
     padding: 3rem;
-}
-
-/*read more button*/
-.more-btn a {
-    text-decoration: none;
-    color: #333;
-    background-color: gba(255,255,255,0.7);;
-    border: 1px solid black;
-    padding: 1rem 3rem;
-}
-
-.more-btn a:hover {
-    background-color: #333;
-    color: #FFF;
-    transition: all 0.5s ease-in-out;
 }
 
 /*media query for landing image*/
@@ -478,6 +477,14 @@ textarea:focus {
     width: 30%;
     text-align: center;
     padding-top: 7rem;
+}
+
+.view-btn {
+    position: relative;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    padding: 3rem;
 }
 
 /*'Send feedback' in-text link*/
@@ -607,7 +614,7 @@ ul.product-list {
 ul.product-list li {
     display: inline-block;
     position: relative;
-    margin-bottom: 10rem;
+    margin-bottom: 5em;
 }
 
 ul.product-list li img {
