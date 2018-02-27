@@ -1,13 +1,13 @@
 /*----------FONT----------*/
 
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Crimson Text', sans-serif;
     box-sizing: border-box;
 }
 
 /*----------BASIC STYLING----------*/
 
-html, body {a
+html, body {
     height: 100%;
     width: 100%;
 }
@@ -47,6 +47,18 @@ h3 {
     font-size: 0.8rem;
     font-weight: 500;
     text-decoration: underline;
+}
+
+h4 {
+    font-family: 'Crimson Text',serif;
+    letter-spacing: 0.3em;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom:0;
+    width: 100%;
+    text-align: center;
 }
 
 p {
@@ -387,16 +399,95 @@ textarea:focus {
 
 /*----------LANDING PAGE----------*/
 
-.landing-about {
+/*landing image*/
+.landing-image {
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    padding-top: 3rem;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 5rem;
+    top: 0;
+    width: 65%;
+    padding-bottom: 5em;
+    border-bottom: 1px solid black
 }
 
+.landing-image img{
+    position: relative;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.landing-image h4 {
+    position: absolute;
+    color: black;
+    top: 25.3%;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+}
+
+.landing-image p {
+    position: absolute;
+    width: 100%;
+    color: black;
+    top: 40%;
+    left: 0;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.more-btn {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 51.3%;
+    font-size: 0.75em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 3rem;
+}
+
+/*read more button*/
+.more-btn a {
+    text-decoration: none;
+    color: #333;
+    background-color: gba(255,255,255,0.7);;
+    border: 1px solid black;
+    padding: 1rem 3rem;
+}
+
+.more-btn a:hover {
+    background-color: #333;
+    color: #FFF;
+    transition: all 0.5s ease-in-out;
+}
+
+/*media query for landing image*/
+@media (max-width: 70em) {
+    .landing-image {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width: 50em) {
+     .landing-image img {
+        width: 100%;
+        margin: auto;
+        opacity: 1;
+    }
+    .landing-image h4 {
+        position: relative;
+    }
+    .landing-image p {
+        position: relative;
+    }
+    .more-btn {
+        position: relative;
+    }
+}
+
+/*landing content*/
 .landing-featured {
     margin-left: auto;
     margin-right: auto;
