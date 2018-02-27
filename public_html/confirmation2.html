@@ -6,25 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/grids.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,500,700,900" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/anecdote2.png?">
-    <title>Confirmation</title>
+    <title>Payment</title>
 </head>
 
 <body>
     <nav>
         <div class="logo-container">
             <a href="landing.html">
-              <img src="img/logo.jpg" width=90 alt="Logo for anec+dote">
-          </a>
+                <img src="img/logo.jpg" width=90 alt="Logo for anec+dote">
+            </a>
         </div>
-        <div class="nav-container" id="myNav">
-            <div class="hamburger" onclick="myFunction()">
-                <div class="ham-bar1"></div>
-                <div class="ham-bar2"></div>
-                <div class="ham-bar3"></div>
-            </div>
+        <div class="nav-container">
             <ul>
                 <li><a href="catalog.html">Catalog</a></li>
                 <li><a href="journal.html">Journal</a></li>
@@ -42,10 +36,10 @@
                         <div class="grid-col-4of12">
                             <h2>Order Summary</h2>
                             <figure>
-                                <img src="img/eames.png" alt=eames>
+                                <img src="img/bauhaus.png" alt=bauhaus>
                                 <figcaption>
-                                    <p>Essential Eames: Words &amp; Pictures</p>
-                                    <p>$44</p>
+                                    <p>Bauhaus No. 9</p>
+                                    <p>$20</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -109,32 +103,7 @@
                     <a href="landing.html">Confirm</a>
                 </div>
             </div>
-
-            <div class="footer-spacing"></div>
-
-            <footer>
-                <p>Copyright © Anec+Dote 2018</p>
-                <p>Timothy Chow + Lana Kobayashi</p>
-                <div class="citations">
-                    <p>
-                        <a href="citations.html">Citations</a>
-                    </p>
-                </div>
-            </footer>
-
         </div>
     </div>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myNav");
-            if (x.className === "nav-container") {
-                x.className += " responsive";
-            } else {
-                x.className = "nav-container";
-            }
-        }
-    </script>
-    
 </body>
-
 </html>
