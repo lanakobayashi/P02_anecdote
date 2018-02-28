@@ -439,10 +439,10 @@ textarea:focus {
 
 .landing-image p {
     position: absolute;
-    width: 100%;
+    width: 25%;
     color: black;
     top: 40%;
-    left: 0;
+    left: 37.5%;
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -466,15 +466,22 @@ textarea:focus {
     font-size: 0.75em;
     letter-spacing: 0.05em;
     text-align: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .more-btn a:hover, .view-btn a:hover {
     background-color: #333;
     color: #FFF;
-    transition: all 0.5s ease-in-out;
 }
 
 /*media query for landing image*/
+@media (max-width: 81.25em) {
+    .landing-image p{
+        width: 40%;
+        left: 29%
+    }
+}
+
 @media (max-width: 70em) {
     .landing-image {
         width: 100%;
@@ -492,6 +499,9 @@ textarea:focus {
     }
     .landing-image p {
         position: relative;
+        width: 75%;
+        margin: auto;
+        left: 0%;
     }
     .more-btn {
         position: relative;
