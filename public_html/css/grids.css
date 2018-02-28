@@ -271,7 +271,21 @@
         margin-top: 3rem;
         transition: all 0.5s ease-in-out;
     }
-
+    
+    ul.product-list li {
+        margin-bottom: 10rem;
+    }
+    
+    .text-content {
+        background: rgba(0,0,0,0);
+        color: #333;
+        opacity: 1
+    }
+    
+    .text-content h2, .text-content p {
+        transform: translate(0%, 1100%);
+        color: #333;
+    }
 
 }
 
