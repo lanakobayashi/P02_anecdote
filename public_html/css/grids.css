@@ -88,7 +88,7 @@
     .landing-contact {
         width: 60%;
     }
-    
+
     #contact-us {
         width: 40%;
     }
@@ -245,6 +245,50 @@
 
 }
 
+@media (max-width:37.5em) {
+    .hamburger {
+        display: block;
+        float: right;
+        padding: 0;
+        margin: 0;
+        margin-right:2rem;
+        transform: translate(0, -200%);
+    }
+
+    .nav-container ul li {
+        display: none;
+    }
+
+    .nav-container.responsive {
+        padding-bottom: 100rem;
+        background: white;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav-container.responsive ul li {
+        display: block;
+        float: none;
+        margin-top: 3rem;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    ul.product-list li {
+        margin-bottom: 10rem;
+    }
+    
+    .text-content {
+        background: rgba(0,0,0,0);
+        color: #333;
+        opacity: 1
+    }
+    
+    .text-content h2, .text-content p {
+        transform: translate(0%, 1100%);
+        color: #333;
+    }
+
+}
+
 @media (max-width: 30em) {
     .journal-entry {
         width: 100%;
@@ -334,3 +378,5 @@
 
     }
 }
+
+
