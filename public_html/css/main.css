@@ -392,12 +392,12 @@ textarea:focus {
     color: #333;
     background-color: #ffff66;
     padding: 1rem 5rem;
+    transition: all 0.5s ease-in-out;
 }
 
 .submit-btn a:hover {
     background-color: #333;
     color: #FFF;
-    transition: all 0.5s ease-in-out;
 }
 
 .contact-information {
