@@ -130,7 +130,7 @@
     .nav-container.responsive ul li {
         display: block;
         float: none;
-        margin-top: 3rem;
+        margin-top: 2.5rem;
         transition: all 0.5s ease-in-out;
     }
 
@@ -316,9 +316,12 @@
 }
 
 @media (max-width: 30em) {
+    .logo-container {
+        padding-top: 1.75rem;
+    }
+    
     .logo-container img {
         width: 25%;
-        margin-left: 1rem;
     }
     
     nav {
@@ -413,4 +416,5 @@
 
     }
 }
+
 
