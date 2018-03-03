@@ -19,6 +19,7 @@ body {
 }
 
 /*headers*/
+
 h1 {
     color: #333;
     letter-spacing: 0.025em;
@@ -73,6 +74,7 @@ input {
 }
 
 /*main container*/
+
 .content-container {
     padding: 2rem;
     min-height: 100%;
@@ -160,6 +162,7 @@ a.btn2:focus {
 }
 
 /*in-text links*/
+
 .in-text-link {
     text-decoration: none;
     color: #666666;
@@ -180,6 +183,7 @@ nav {
     background: white;
     width: 100%;
     z-index: 100;
+    padding-bottom: 0.25rem;
 }
 
 nav a {
@@ -211,6 +215,7 @@ nav h2 {
 }
 
 /* Links inside the navbar */
+
 .nav-container a {
     /*    float: right;*/
     position: relative;
@@ -226,11 +231,15 @@ nav h2 {
 }
 
 /* Underline on mouse-over */
+
 .nav-container a:hover {
     color: black;
     border-bottom: 1px solid #000;
 }
-.ham-bar1, .ham-bar2, .ham-bar3 {
+
+.ham-bar1,
+.ham-bar2,
+.ham-bar3 {
     width: 35px;
     height: 5px;
     background-color: #333;
@@ -243,7 +252,9 @@ nav h2 {
     transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.nav-container.responsive .ham-bar2 {opacity: 0;}
+.nav-container.responsive .ham-bar2 {
+    opacity: 0;
+}
 
 .nav-container.responsive .ham-bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
@@ -255,6 +266,7 @@ nav h2 {
 }
 
 /*List nav links in a row*/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -289,7 +301,9 @@ ul li {
     padding-top: 1.5rem;
 }
 
-#who, #what, #our-values {
+#who,
+#what,
+#our-values {
     padding-bottom: 1rem;
 }
 
@@ -340,6 +354,7 @@ input {
 }
 
 /*when input area is selected*/
+
 input:focus {
     outline: none;
     border-color: #333;
@@ -377,12 +392,12 @@ textarea:focus {
     color: #333;
     background-color: #ffff66;
     padding: 1rem 5rem;
+    transition: all 0.5s ease-in-out;
 }
 
 .submit-btn a:hover {
     background-color: #333;
     color: #FFF;
-    transition: all 0.5s ease-in-out;
 }
 
 .contact-information {
@@ -424,10 +439,10 @@ textarea:focus {
 
 .landing-image p {
     position: absolute;
-    width: 100%;
+    width: 25%;
     color: black;
     top: 40%;
-    left: 0;
+    left: 37.5%;
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -451,15 +466,22 @@ textarea:focus {
     font-size: 0.75em;
     letter-spacing: 0.05em;
     text-align: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .more-btn a:hover, .view-btn a:hover {
     background-color: #333;
     color: #FFF;
-    transition: all 0.5s ease-in-out;
 }
 
 /*media query for landing image*/
+@media (max-width: 81.25em) {
+    .landing-image p{
+        width: 40%;
+        left: 29%
+    }
+}
+
 @media (max-width: 70em) {
     .landing-image {
         width: 100%;
@@ -477,6 +499,9 @@ textarea:focus {
     }
     .landing-image p {
         position: relative;
+        width: 75%;
+        margin: auto;
+        left: 0%;
     }
     .more-btn {
         position: relative;
@@ -515,6 +540,7 @@ textarea:focus {
 }
 
 /*'Send feedback' in-text link*/
+
 #feedback {
     padding-top: 1.5rem;
 }
@@ -728,6 +754,7 @@ ul.product-list li:hover .text-content {
 }
 
 /*selecting payment method*/
+
 select {
     width: 100%;
     height: 3rem;
@@ -738,6 +765,7 @@ select {
 }
 
 /*when input box for payment method is selected*/
+
 select:focus {
     outline: none;
     border-color: #333;
@@ -778,7 +806,8 @@ select:focus {
     padding-bottom: 1rem;
 }
 
-.information-cluster h3, p {
+.information-cluster h3,
+p {
     margin: 0;
 }
 
@@ -870,4 +899,3 @@ footer {
 #citations-content h2 {
     padding: 2rem;
 }
-
