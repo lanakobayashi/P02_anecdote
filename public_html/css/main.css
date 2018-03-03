@@ -620,7 +620,7 @@ textarea:focus {
     padding: 1rem;
     text-decoration: none;
     color: #333;
-    background-color: #FFFde5;
+    background-color: #ffff66;
     transition: all 0.3s ease-in-out;
 }
 
