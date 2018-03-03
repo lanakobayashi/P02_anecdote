@@ -725,3 +725,33 @@ ul.product-list li:hover .text-content {
     transition: color 0.5s ease-in-out;
     text-decoration: line-through;
 }
+
+/*----------FOOTER/CITATIONS----------*/
+
+.footer-spacing {
+    display: block;
+    height: 8rem;
+}
+
+footer {
+    display: block;
+    padding-top: 2rem;
+    border-top: 1px #afafaf solid;
+    text-align: center;
+}
+
+#copyright {
+    padding-top: 2rem;
+}
+
+.footer-button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-button a:hover {
+    color: #afafaf;
+    text-decoration: line-through;
+}
