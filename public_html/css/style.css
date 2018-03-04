@@ -130,6 +130,13 @@ nav a:focus {
     color: #333333;
 }
 
+
+#nav-style nav {
+    position: relative;
+    background: white;
+    width: 100%;
+}
+
 nav h2 {
     padding-top: 1.5rem;
 }
