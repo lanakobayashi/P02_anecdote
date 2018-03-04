@@ -130,14 +130,6 @@ nav a:focus {
     color: #333333;
 }
 
-
-#nav-style nav {
-    position: relative;
-    background: white;
-    width: 100%;
-    z-index: 0;
-}
-
 nav h2 {
     padding-top: 1.5rem;
 }
@@ -546,15 +538,81 @@ textarea:focus {
     font-size: 1rem;
 }
 
-/*COMBINED ELEMENTS*/
+/*-------------COMBINED ELEMENTS-------------------*/
 
 #combined-elements h3 {
     padding-top: 1rem;
 }
 
+/*MAIN NAVIGATION*/
 #nav-style {
     width: 100%;
     text-align: right;
+}
+
+#nav-style nav {
+    position: relative;
+    background: white;
+    width: 100%;
+    z-index: 0;
+}
+
+.nav-container-style {
+    text-align: center;
+}
+
+/* Links inside the navbar */
+
+.nav-container-style a {
+    /*    float: right;*/
+    position: relative;
+    text-align: center;
+    color: #afafaf;
+    padding: 14px 31.2px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    border-bottom: 1px solid #FFF;
+}
+
+/* Underline on mouse-over */
+
+.nav-container-style a:hover {
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+.nav-container-style.responsive .ham-bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 50px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.nav-container-style.responsive .ham-bar2 {
+    opacity: 0;
+}
+
+.nav-container-style.responsive .ham-bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.hamburger-style {
+    display: none;
+}
+
+/*List nav links in a row*/
+.nav-container-style ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.nav-container-style ul li {
+    list-style-type: none;
+    padding: 0 6px;
+    display: inline-block;
 }
 
 .code-space {
@@ -603,7 +661,7 @@ ul.product-list li img {
 }
 
 /* Text in the product image */
-.text-content h2, .text-content p {
+.text-content h2{
     text-align: center;
     vertical-align: middle;
     color: #FFFDE5;
@@ -740,6 +798,10 @@ footer {
     padding-top: 2rem;
     border-top: 1px #afafaf solid;
     text-align: center;
+}
+
+footer p {
+    margin: 0;
 }
 
 #copyright {
