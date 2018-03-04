@@ -83,25 +83,76 @@
     }
 }
 
+@media (max-width: 64em) {
+    .hamburger {
+        display: block;
+        float: right;
+        padding: 0;
+        margin: 0;
+        margin-right: 2rem;
+        transform: translate(0%, -125%) scale(1);
+    }
+
+    nav {
+        height: 7rem;
+    }
+
+    .logo-container {
+        padding-bottom: 0;
+    }
+
+    .nav-container ul li {
+        padding-top: 0;
+        display: none;
+    }
+
+    .nav-container a {
+        border-bottom: 0;
+    }
+
+    .nav-container.responsive {
+        padding-bottom: 100rem;
+        background: white;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-container.responsive ul li {
+        display: block;
+        float: none;
+        margin-top: 2.5rem;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav-container.responsive a {
+        transition: all 0.5s ease-in-out;
+        color: #333;
+        font-weight: 400;
+    }
+
+    ul.product-list li {
+        margin-bottom: 10rem;
+    }
+
+    .text-content {
+        background: rgba(0, 0, 0, 0);
+        color: #333;
+        opacity: 1
+    }
+
+    .text-content h2,
+    .text-content p {
+        transform: translate(0%, 1100%);
+        color: #333;
+    }
+}
+
 
 @media (max-width: 60em) {   
     .box {
        width: 30%; 
     }
-
-
 }
 
-@media (max-width: 40em) { 
-    .box {
-       width: 100%; 
-    }
-    
-    #list-item {
-        width: 100%;
-    }
-
-}
 
 @media (max-width: 50em) {
     .landing-image img {
@@ -112,37 +163,15 @@
 
 }
 
-@media (max-width:60em) {
-    .hamburger {
-        display: block;
-        float: right;
-        padding: 0;
-        margin: 0;
-        margin-right:2rem;
-        transform: translate(0, -200%);
-    }
 
-    .nav-container ul li {
-        display: none;
-    }
-
-    .nav-container.responsive {
-        padding-bottom: 100rem;
-        background: white;
-        transition: all 0.5s ease-in-out;
-    }
-
-    .nav-container.responsive ul li {
-        display: block;
-        float: none;
-        margin-top: 2rem;
-        transition: all 0.5s ease-in-out;
+@media (max-width: 40em) { 
+    .box {
+       width: 100%; 
     }
     
     #list-item {
         width: 100%;
     }
-
 
 }
 
