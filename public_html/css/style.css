@@ -135,6 +135,7 @@ nav a:focus {
     position: relative;
     background: white;
     width: 100%;
+    z-index: 0;
 }
 
 nav h2 {
