@@ -720,7 +720,7 @@ ul.product-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > 
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    width: 100%;
+    width: 96%;
     height: 100%;
     position: absolute;
     opacity: 0;
