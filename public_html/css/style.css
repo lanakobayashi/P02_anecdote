@@ -116,12 +116,7 @@ nav {
     background: white;
     width: 100%;
     z-index: 100;
-}
-
-#nav-style nav {
-    position: relative;
-    background: white;
-    width: 100%;
+    padding-bottom: 0.25rem;
 }
 
 nav a {
@@ -498,13 +493,39 @@ a.btn2:focus {
 }
 
 label {
-    font-size: 0.9em;
-    text-transform: uppercase;
-    font-weight: 600;
+    display: block;
+    padding-bottom: 1rem;
 }
 
 input {
-    width: 50%;
+    padding: 0.75rem;
+    border: 1px solid #afafaf;
+    border-radius: 2px;
+}
+
+/*when input area is selected*/
+
+input:focus {
+    outline: none;
+    border-color: #333;
+    transition: all 0.3s ease-in;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    overflow: auto;
+    cursor: text;
+    font-weight: 100;
+    padding: 1rem;
+    font-size: 0.85rem;
+    border: 1px solid #afafaf;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #333;
+    transition: all 0.3s ease-in;
 }
 
 #text-styling h3 {
@@ -651,7 +672,7 @@ ul.product-list li:hover .text-content {
 #white-box {
     height: 200px;
     background: #FFFFFF;
-    border: solid 1px #000;
+    border: solid 0.1px #000;
 }
 
 #lightyellow-box {
