@@ -31,6 +31,49 @@
     width: 25%;
 }
 
+@media (max-width: 90em) {
+    .hamburger-style {
+        display: block;
+        float: right;
+        padding: 0;
+        margin: 0;
+        margin-right: 2rem;
+        transform: translate(100%, -125%) scale(1);
+    }
+    
+    .nav-container-style ul li {
+        padding-top: 0;
+        display: none;
+    }
+
+    .nav-container-style a {
+        border-bottom: 0;
+    }
+
+    .nav-container-style.responsive {
+        padding-bottom: 100rem;
+        background: white;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-container-style.responsive ul li {
+        display: block;
+        float: none;
+        margin-top: 2.5rem;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav-container-style.responsive a {
+        transition: all 0.5s ease-in-out;
+        color: #333;
+        font-weight: 400;
+    }
+    
+    .logo-container {
+        padding-bottom: 0;
+    }
+}
+
 
 @media (max-width: 80em) {
      .product-list {
@@ -55,7 +98,7 @@
     .more-btn {
         position: relative;
         width: 100%;
-    }
+    }   
 }
 
 @media (max-width: 70em) {
@@ -81,6 +124,7 @@
         padding: 0;
         padding-top: 3rem;
     }
+
 }
 
 @media (max-width: 64em) {
@@ -132,6 +176,12 @@
     ul.product-list li {
         margin-bottom: 10rem;
     }
+    
+    li.grid-col-4of12 {
+    width: 100%;
+    border: none; 
+    height: 100%;
+    }
 
     .text-content {
         background: rgba(0, 0, 0, 0);
@@ -141,8 +191,9 @@
 
     .text-content h2,
     .text-content p {
-        transform: translate(0%, 1100%);
+        transform: translate(0%, 2900%);
         color: #333;
+        padding: 0;
     }
 }
 
@@ -150,6 +201,13 @@
 @media (max-width: 60em) {   
     .box {
        width: 30%; 
+    }
+    
+    .text-content h2,
+    .text-content p {
+        transform: translate(0%, 2500%);
+        color: #333;
+        padding: 0;
     }
 }
 
@@ -159,6 +217,12 @@
         width: 100%;
         margin: auto;
         opacity: 1;
+    }
+    .text-content h2,
+    .text-content p {
+        transform: translate(0%, 2000%);
+        color: #333;
+        padding: 0;
     }
 
 }
@@ -171,6 +235,13 @@
     
     #list-item {
         width: 100%;
+    }
+    
+    .text-content h2,
+    .text-content p {
+        transform: translate(0%, 1800%);
+        color: #333;
+        padding: 0;
     }
 
 }
@@ -186,6 +257,17 @@
         padding-left: 3rem;
         padding-right: 3rem;
 
+    }
+    
+    .text-content h2,
+    .text-content p {
+        transform: translate(0%, 1100%);
+        color: #333;
+        padding: 0;
+    }
+    
+    .hamburger-style {
+        
     }
 }
 
