@@ -297,7 +297,6 @@ a.btn2:focus {
 /*---------- VALUE ----------*/
 
 /*landing image*/
-
 .landing-image {
     margin-left: auto;
     margin-right: auto;
@@ -307,7 +306,7 @@ a.btn2:focus {
     border-bottom: 1px solid black
 }
 
-.landing-image img {
+.landing-image img{
     position: relative;
     width: 100%;
     opacity: 0.5;
@@ -324,10 +323,10 @@ a.btn2:focus {
 
 .landing-image p {
     position: absolute;
-    width: 100%;
+    width: 25%;
     color: black;
     top: 40%;
-    left: 0;
+    left: 37.5%;
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -359,32 +358,6 @@ a.btn2:focus {
     background-color: #333;
     color: #FFF;
     transition: all 0.5s ease-in-out;
-}
-
-/*media query for landing image*/
-
-@media (max-width: 70em) {
-    .landing-image {
-        width: 100%;
-        margin: auto;
-    }
-}
-
-@media (max-width: 50em) {
-    .landing-image img {
-        width: 100%;
-        margin: auto;
-        opacity: 1;
-    }
-    .landing-image h4 {
-        position: relative;
-    }
-    .landing-image p {
-        position: relative;
-    }
-    .more-btn {
-        position: relative;
-    }
 }
 
 /*---------- INTERACTIVE ELEMENTS ----------*/
