@@ -335,6 +335,10 @@
         height: 6rem;
     }
     
+    .content {
+        margin-top: 6rem;
+    }
+    
     .journal-entry {
         width: 100%;
     }
