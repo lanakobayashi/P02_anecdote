@@ -1,5 +1,7 @@
 /*----------FONT----------*/
 
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&text=anec+dote|Montserrat:100,500,700,900');
+
 * {
     font-family: 'Montserrat', 'Crimson Text', sans-serif;
     box-sizing: border-box;
