@@ -315,7 +315,6 @@ a.btn2:focus {
     top: 25.3%;
     left: 0;
     width: 100%;
-    padding: 1em;
 }
 
 .landing-image p {
@@ -615,6 +614,15 @@ textarea:focus {
     list-style-type: none;
     padding: 0 6px;
     display: inline-block;
+}
+
+.logo-container-style {
+    padding-top: 2rem;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 1px black;
 }
 
 .code-space {
