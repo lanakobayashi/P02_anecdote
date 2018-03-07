@@ -701,6 +701,16 @@ ul.product-list li:hover .text-content {
     opacity: 1;
 }
 
+ul.product-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
+    position: relative;
+    top: 35%;
+}
+
+ul.product-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
+    position: relative;
+    top: 35%;
+}
+
 .structure p {
     font-size: 1rem;
     font-weight: 500;

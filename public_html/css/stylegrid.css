@@ -292,6 +292,18 @@
         margin-top: 6rem;
     }
     
+    .landing-image {
+        width: 100%;
+    }
+    
+    .section-element {
+        width: 100%;
+    }
+    
+    input {
+        width: 100%;
+    }
+    
     #list-item {
         width: 100%;
     }
